@@ -7,13 +7,13 @@ Ridge is a light dashboard theme for the Arcadyan AW1000. It uses a collapsible 
 From your computer, copy the APK to the router. Use your router's address in place of `192.168.1.1`.
 
 ```sh
-scp -O dist/luci-theme-ridge-1.0.0-r2.apk root@192.168.1.1:/tmp/
+scp -O dist/luci-theme-ridge-1.0.0-r3.apk root@192.168.1.1:/tmp/
 ```
 
 On the router, install the unsigned local package.
 
 ```sh
-apk add --allow-untrusted /tmp/luci-theme-ridge-1.0.0-r2.apk
+apk add --allow-untrusted /tmp/luci-theme-ridge-1.0.0-r3.apk
 ```
 
 In LuCI, go to **System → System → Language and Style**, choose **Ridge** under **Design**, then **Save & Apply**. You can select **NoobWrt** in the same menu to switch back. To switch back from SSH, run:
